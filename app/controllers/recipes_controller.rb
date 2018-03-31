@@ -46,7 +46,10 @@ class RecipesController < ApplicationController
 
   private
 
-  def song_params
-    params.require(:song).permit(:title)
+  def recipe_params
+    params.require(:recipe).permit(
+      :title,
+      ingredients:
+      )
   end
 end
