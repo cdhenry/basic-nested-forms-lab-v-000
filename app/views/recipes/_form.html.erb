@@ -2,11 +2,11 @@
   Title: <%= f.text_field :title %>
 
   <%= f.fields_for :ingredients do |i| %>
-    <%= i.label :ingredient_1 %>
-    <%= i.text_field :ingredient_1 %><br>
+    <%= i.label :quantity %>
+    <%= i.text_field :quantity %><br>
 
-    <%= i.label :ingredient_2 %>
-    <%= i.text_field :ingredient_2 %><br>
+    <%= i.label :name %>
+    <%= i.text_field :name %><br>
 
     <%= i.label :ingredient_3 %>
     <%= i.text_field :ingredient_3 %><br>
